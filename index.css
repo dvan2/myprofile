@@ -1,5 +1,6 @@
 body {
-  background-color: lightgrey;
+  background-color: #d9edd9;
+  color: grey;
 }
 
 nav {
@@ -23,9 +24,9 @@ nav ul li {
 
 nav ul li a {
   font-size: 30px;
-  color: grey;
   font-weight: bold;
   text-decoration: none;
+  color: grey;
 }
 
 nav ul li:hover {
@@ -35,6 +36,10 @@ nav ul li:hover {
 
 a:hover {
   text-decoration: none;
+}
+
+a:focus {
+  color: orange;
 }
 
 @media (max-width: 680px) {
