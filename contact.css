@@ -1,0 +1,85 @@
+.container {
+  text-align: center;
+}
+h1 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+form {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 1em;
+  margin: auto;
+}
+
+form label,
+form fieldset legend {
+  font-weight: bold;
+}
+
+form fieldset {
+  border: 0;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+form fieldset label {
+  display: inline-block;
+  font-size: medium;
+  margin-left: 10px;
+  font-weight: normal;
+  width: 60%;
+}
+
+form input {
+  float: right;
+  width: 70%;
+}
+
+form input[type="radio"] {
+  float: none;
+  width: 10px;
+}
+
+button form input[type="submit"] {
+  margin-top: 30px;
+}
+
+button {
+  width: 45%;
+  display: inline-block;
+  border-color: green;
+  border-width: 1px;
+  color: green;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: white;
+  font-weight: 600;
+}
+
+button:hover,
+form input[type="submit"]:hover {
+  background-color: orange;
+  border-color: black;
+  border-width: 1px;
+}
+
+form input[type="submit"] {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  float: none;
+  padding: 10px;
+  width: 45%;
+  border-color: green;
+  border-width: 0;
+  border-radius: 6px;
+}

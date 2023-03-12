@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <!--Nav bar-->
@@ -25,19 +25,28 @@
       </ul>
     </nav>
     <div class="content">
-      <img src="images/me.jpg" alt="Picture of David." width="350" />
-      <div class="about-text">
-        <h3>Hello my name is David</h3>
-        <p>
-          I'm a Computer Science student at Portland State University soon to be
-          gragudating in Winter term of 2023. Learning about CS was a thrill. I
-          got an understanding of how 1's 0's are turned into logic gates and
-          are used to build languages. I learned about Operating Systems and
-          Compilers. It's amazing that we are able to come this far in
-          technological advancement and it's amazing that there are many
-          brilliant people who created all these together.
-        </p>
-      </div>
+      <form method="" class="form">
+        <h1>Contact me</h1>
+        <label for="username">Name:</label>
+        <input type="text" name="username" id="username" />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <label for="message">Message:</label>
+        <input type="text" name="message" id="message" />
+        <fieldset>
+          <legend>Will you come back to visit.</legend>
+          <label>
+            <input type="radio" name="option" value="yes" />
+            Yes.
+          </label>
+          <label>
+            <input type="radio" name="option" value="no" />
+            Maybe.
+          </label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+        <button>Reset</button>
+      </form>
     </div>
   </body>
 </html>
