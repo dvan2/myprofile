@@ -20,33 +20,58 @@
       <ul>
         <li><a href="index.html">About</a></li>
         <li><a href="previous.html">Previous Work</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <div class="content">
-      <form method="" class="form">
-        <h1>Contact me</h1>
-        <label for="username">Name:</label>
-        <input type="text" name="username" id="username" />
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" />
-        <label for="message">Message:</label>
-        <input type="text" name="message" id="message" />
-        <fieldset>
-          <legend>Will you come back to visit.</legend>
-          <label>
-            <input type="radio" name="option" value="yes" />
-            Yes.
-          </label>
-          <label>
-            <input type="radio" name="option" value="no" />
-            Maybe.
-          </label>
-        </fieldset>
-        <input type="submit" value="Submit" />
-        <button>Reset</button>
-      </form>
+    <div class="container">
+      <main>
+        <form action="" class="mx-auto my-5">
+          <div class="p-3 text-right">
+            <div class="row p-3">
+              <h1 class="text-uppercase text-center mx-auto font-weight-bold">
+                Contact me
+              </h1>
+            </div>
+            <div class="row my-3">
+              <label class="col-12 col-sm-4" for="usernameInput">
+                Username:
+              </label>
+              <div class="col-12 col-sm-8">
+                <input type="text" class="form-control" id="usernameInput" />
+              </div>
+            </div>
+            <div class="row my-3">
+              <label class="col-12 col-sm-4" for="emailInput"> Email: </label>
+              <div class="col-12 col-sm-8">
+                <input type="text" class="form-control" id="emailInput" />
+              </div>
+            </div>
+            <div class="row my-3">
+              <label class="col-12 col-sm-4" for="message">
+                Message:
+              </label>
+              <div class="col-12 col-sm-8">
+                <input type="text" class="form-control" id="message" />
+              </div>
+
+            <div class="container">
+              <div class="row justify-content-center p-4">
+                <div class="col-4">
+                  <button type="button" class="btn btn-primary px-3">
+                    Submit
+                  </button>
+                </div>
+                <div class="col-4">
+                  <button type="button" class="btn btn-secondary px-4">
+                    Reset
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </main>
     </div>
   </body>
 </html>

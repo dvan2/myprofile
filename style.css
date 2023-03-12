@@ -31,7 +31,8 @@ body {
 
 body {
   background-color: #d9edd9;
-  color: grey;
+  /* color: grey; */
+  color: #45403d;
 }
 
 nav {

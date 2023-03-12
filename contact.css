@@ -1,51 +1,18 @@
-.container {
-  text-align: center;
-}
+/*
 h1 {
   width: 80%;
   text-align: center;
   margin: auto;
   margin-bottom: 20px;
 }
+*/
+.form-control {
+  border-radius: 10px;
+}
 
 form {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  text-align: left;
-  padding: 1em;
-  margin: auto;
-}
-
-form label,
-form fieldset legend {
-  font-weight: bold;
-}
-
-form fieldset {
-  border: 0;
-  margin-left: 0;
-  padding: 0;
-  margin-bottom: 25px;
-  margin-top: 30px;
-}
-
-form fieldset label {
-  display: inline-block;
-  font-size: medium;
-  margin-left: 10px;
-  font-weight: normal;
-  width: 60%;
-}
-
-form input {
-  float: right;
-  width: 70%;
-}
-
-form input[type="radio"] {
-  float: none;
-  width: 10px;
+  background-color: #cbddb6;
+  border-radius: 50px;
 }
 
 button form input[type="submit"] {
@@ -71,9 +38,10 @@ form input[type="submit"]:hover {
   border-width: 1px;
 }
 
-form input[type="submit"] {
+.btn-primary {
   background-color: green;
-  color: white;
+  /* color: white;
+   */
   text-align: center;
   font-size: 15px;
   float: none;
