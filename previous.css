@@ -1,0 +1,47 @@
+.content-container {
+  background-color: #cbddb6;
+  width: 98%;
+  border: solid 1px;
+  border-radius: 5px;
+
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.title-heading {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #cbddb6;
+  width: 45%;
+  display: block;
+  border-radius: 5px;
+}
+
+.content-wrapper {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.education .content-wrapper {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+  .card {
+    margin: auto;
+    width: 80%;
+  }
+}
