@@ -1,3 +1,6 @@
+.container {
+  width: 70%;
+}
 .form-control {
   border-radius: 10px;
 }
@@ -7,12 +10,7 @@ form {
   border-radius: 50px;
 }
 
-button form input[type="submit"] {
-  margin-top: 30px;
-}
-
 button {
-  width: 45%;
   display: inline-block;
   border-color: green;
   border-width: 1px;
@@ -25,21 +23,27 @@ button {
 
 button:hover,
 form input[type="submit"]:hover {
-  background-color: orange;
+  background-color: rgb(148, 143, 135);
   border-color: black;
   border-width: 1px;
 }
 
-.btn-primary {
-  background-color: green;
-  /* color: white;
-   */
-  text-align: center;
-  font-size: 15px;
-  float: none;
-  padding: 10px;
-  width: 45%;
+button,
+input[type="submit"] {
+  width: 20%;
+  display: inline-block;
   border-color: green;
-  border-width: 0;
+  border-width: 1px;
+  color: green;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: white;
+  font-weight: 600;
+}
+
+form input[type="submit"] {
+  background-color: green;
+  color: white;
+  border-color: green;
   border-radius: 6px;
 }
