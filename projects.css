@@ -1,0 +1,27 @@
+.projects-container .card {
+  width: 100%;
+}
+
+.project-content {
+  display: flex;
+  gap: 10px;
+}
+
+.projects-container .card-text,
+.skills {
+  width: 20%;
+  padding: 5px;
+  border: solid 0.5px;
+
+  border-radius: 5px;
+  margin: 0;
+}
+
+.projects-container .card-text {
+  width: 70%;
+}
+
+.projects-container .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
