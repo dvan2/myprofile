@@ -29,7 +29,7 @@ button {
 
 button:hover,
 form input[type="submit"]:hover {
-  background-color: rgb(148, 143, 135);
+  background-color: rgb(120, 185, 118);
   border-color: black;
   border-width: 1px;
 }
@@ -45,6 +45,7 @@ input[type="submit"] {
   border-radius: 6px;
   background-color: white;
   font-weight: 600;
+  cursor: pointer;
 }
 
 form input[type="submit"] {
