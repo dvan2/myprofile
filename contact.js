@@ -1,24 +1,34 @@
 // Add your code here
 let form = document.querySelector("form");
-let signup = document.querySelectorAll("[name=option]");
-//let date_value= document.querySelector("a_date");
+// let signup = document.querySelectorAll("[name=option]");
+let submit_button = document.querySelector("submit");
+let reset_button = document.getElementById("reset-button");
+
+reset_button.addEventListener("click", resetForm);
+
+function resetForm() {
+  form.reset();
+}
 
 let u_name = null;
 
 form.addEventListener("submit", (event) => {
-  console.log(`====== Form Submission =========`);
-  const username = form.elements.username.value;
-  const email = form.elements.email.value;
-  if (
-    username === "" &&
-    email === "" &&
-    option === undefined &&
-    user_date === ""
-  ) {
-    console.warn("You must enter some data to submit this form");
-  }
-  console.log("Username: ", username);
-  console.log("Email: ", email);
-
   event.preventDefault();
+
+  const username = form.elements.usernameInput.value;
+  const email = form.elements.emailInput.value;
+  const message = form.elements.message.value;
+  if (username === "") {
+    alert("Please enter a username");
+    return;
+  }
+  if (email === "") {
+    alert("please enter an email address");
+    return;
+  }
+  if (message === "") {
+    alert("Please enter a short message");
+    return;
+  }
+  form.reset();
 });
