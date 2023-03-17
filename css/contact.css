@@ -1,3 +1,15 @@
+#contact-select {
+  font-weight: bold;
+  text-decoration: none;
+
+  color: rgb(73, 72, 72);
+  padding: 1em;
+
+  background-color: lightblue;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
 .form-content {
   width: 70%;
   margin: auto;
