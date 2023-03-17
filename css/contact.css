@@ -55,7 +55,7 @@ form input[type="submit"] {
   border-radius: 6px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .row {
     text-align: left;
     padding: 0px;

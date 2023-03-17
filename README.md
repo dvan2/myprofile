@@ -1,7 +1,9 @@
 # About Project
 
 This is a final project from CS410, Introduction to Webdevelopment. The goal of this project is to use
-all the aspects that is learned from the course and create a professional website.
+all the aspects that is learned from the course and create a professional website and deploy it using available resources.
+
+My website is deplyed at: [link](https://dvan2.github.io/myprofile/).
 
 ### How to open Project
 
@@ -24,3 +26,5 @@ It is recomended that an editor like [Visual Studio Code](https://code.visualstu
 - https://getbootstrap.com/docs/5.0/components/card/#titles-text-and-links
 
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+- https://www.editorx.com/shaping-design/article/resize-image-css

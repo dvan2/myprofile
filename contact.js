@@ -4,11 +4,10 @@ let form = document.querySelector("form");
 let submit_button = document.querySelector("submit");
 let reset_button = document.getElementById("reset-button");
 
-reset_button.addEventListener("click", resetForm);
-
-function resetForm() {
+reset_button.addEventListener("click", (event) => {
+  event.preventDefault();
   form.reset();
-}
+});
 
 let u_name = null;
 
