@@ -52,7 +52,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   text-decoration: none;
   color: rgb(73, 72, 72);
@@ -73,6 +73,7 @@ a:focus {
   nav {
     flex-direction: column;
     margin-bottom: 50px;
+    margin-top: 10px;
   }
 
   nav ul {
@@ -83,10 +84,11 @@ a:focus {
 
   nav ul li {
     display: inline-block;
-    margin-bottom: 43px;
+    margin-bottom: 12px;
   }
 
   nav ul li a {
-    font-size: 25px;
+    font-size: 33px;
+    padding: 12px;
   }
 }

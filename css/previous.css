@@ -56,4 +56,8 @@
     margin: auto;
     width: 80%;
   }
+
+  #previous-select {
+    padding: 10px;
+  }
 }

@@ -24,10 +24,6 @@ form {
   border-radius: 50px;
 }
 
-.row {
-  padding: 10px;
-}
-
 button {
   display: inline-block;
   border-color: green;
@@ -48,13 +44,13 @@ form input[type="submit"]:hover {
 
 button,
 input[type="submit"] {
-  width: 30%;
+  width: 25%;
   display: inline-block;
   border-color: green;
   border-width: 1px;
   color: green;
   padding: 10px;
-  border-radius: 6px;
+  border-radius: 10px;
   background-color: white;
   font-weight: 600;
   cursor: pointer;
@@ -67,6 +63,10 @@ form input[type="submit"] {
   border-radius: 6px;
 }
 
+.button-container {
+  text-align: right;
+}
+
 @media (max-width: 768px) {
   .row {
     text-align: left;
@@ -75,5 +75,9 @@ form input[type="submit"] {
 
   .form-content {
     width: 95%;
+  }
+
+  #contact-select {
+    padding: 10px;
   }
 }

@@ -10,6 +10,7 @@
   text-decoration: none;
 }
 .content {
+  margin-top: 120px;
   margin-left: 50px;
 
   display: flex;
@@ -29,7 +30,6 @@ img {
 
 @media (max-width: 768px) {
   .content {
-    /* margin-top: 10px; */
     margin-left: 10px;
     flex-direction: column;
   }
@@ -46,5 +46,8 @@ img {
   .about-text {
     margin-top: 20px;
     width: 90%;
+  }
+  #about-select {
+    padding: 10px;
   }
 }
