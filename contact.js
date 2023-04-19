@@ -29,5 +29,16 @@ form.addEventListener("submit", (event) => {
     alert("Please enter a short message");
     return;
   }
+  sendEmail(username, email, message);
   form.reset();
 });
+
+function sendEmail(username, email, message) {
+  Email.send({
+    SecureToken: "77301c31-1bb2-4a67-b65b-fd0f5d832574",
+    To: "reachalo6@gmail.com",
+    From: email,
+    Subject: "From" + username,
+    Body: message,
+  }).then((message) => alert(message));
+}
