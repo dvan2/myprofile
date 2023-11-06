@@ -1,31 +1,13 @@
-#about-select {
-  font-weight: bold;
-  text-decoration: none;
-
-  color: rgb(73, 72, 72);
-  padding: 1em;
-
-  background-color: lightblue;
-  border-radius: 50px;
-  text-decoration: none;
-}
 .content {
-  margin-top: 120px;
-  margin-left: 50px;
-
-  display: flex;
-  justify-content: center;
+  margin-top: 100px;
+  width: 70%;
+  float: right;
 }
 
 .about-text {
   margin-left: 20px;
-
   width: 60%;
   padding: 0 1em;
-}
-
-img {
-  border-radius: 100px;
 }
 
 @media (max-width: 768px) {

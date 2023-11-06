@@ -2,11 +2,14 @@
   font-weight: bold;
 
   color: rgb(73, 72, 72);
+
+  /*
   padding: 1em;
 
   background-color: lightblue;
   border-radius: 50px;
   text-decoration: none;
+  */
 }
 
 .projects-container .card {

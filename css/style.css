@@ -26,19 +26,14 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   color: var(--gray1);
-  background-color: var(--mybackgroundcolor);
-}
-
-body {
-  background-color: #d9edd9;
-  color: #45403d;
 }
 
 nav {
+  width: 20%;
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
 }
 
 nav ul {
@@ -47,16 +42,10 @@ nav ul {
   margin: auto;
 }
 
-nav ul li {
-  display: inline-block;
-}
-
 nav ul li a {
   font-size: 28px;
-  font-weight: bold;
   text-decoration: none;
   color: rgb(73, 72, 72);
-  padding: 1em;
 }
 
 nav ul li a:hover {
