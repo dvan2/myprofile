@@ -90,6 +90,18 @@ nav a:focus {
   margin-right: 30px;
 }
 
+.dropped-text {
+  font-size: 1rem;
+}
+
+[data-bs-toggle="collapse"] .fa:before {
+  content: "\f0d8";
+}
+
+[data-bs-toggle="collapse"].collapsed .fa:before {
+  content: "\f0d7";
+}
+
 /*
 @media (max-width: 768px) {
   nav {
