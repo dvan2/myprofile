@@ -29,13 +29,14 @@ body {
 }
 
 nav {
-  width: 200px;
+  width: 220px;
   display: flex;
   flex-direction: column;
   position: fixed;
   height: 100%;
-  margin-left: 50px;
-  margin-top: 180px;
+  top: 0;
+  margin-top: 150px;
+  margin-left: 30px;
 }
 
 nav > img {
@@ -43,6 +44,8 @@ nav > img {
 }
 
 .nav-links {
+  margin: auto;
+
   margin-top: 10px;
 }
 
@@ -53,14 +56,41 @@ nav a {
   font-size: 25px;
 }
 
-/*
-nav ul li a {
-  font-size: 23px;
+nav a:focus {
   text-decoration: none;
-  color: rgb(73, 72, 72);
 }
-*/
 
+/*Home page*/
+.profile-content {
+  margin-left: 300px;
+  margin-top: 120px;
+  width: 65%;
+}
+
+.about-text {
+  width: 100%;
+}
+
+#profile-experience {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  margin-top: 25px;
+}
+
+.experience-content {
+  display: flex;
+}
+
+.experience-content i {
+  font-size: 45px;
+  margin-right: 30px;
+}
+
+/*
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -84,3 +114,5 @@ nav ul li a {
     padding: 12px;
   }
 }
+
+*/
